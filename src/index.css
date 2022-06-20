@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-image: linear-gradient(to right, #cbc0ff ,#eaeda1);
+}
+.bg-color{
+  background-color: rgba(0, 0, 0, 0.068);
+}
+.bg_white{
+  background-color: rgba(255, 255, 255, 0.616);
+}
+
+.text-xs{
+  font-size:10px;
+}
+
